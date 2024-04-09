@@ -1,7 +1,6 @@
 const isValidUrl = require("../../services/validation");
 
 describe("isValidUrl", () => {
-
   // Test that a URL missing a protocol returns undefined
   it("returns undefined when the URL is missing a protocol", () => {
     const url = "www.offerzen.com";

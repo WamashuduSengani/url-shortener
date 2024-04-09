@@ -26,7 +26,10 @@ describe("Url Model Test", () => {
 
   // Test that a URL can be created and saved successfully
   it("create & save url successfully", async () => {
-    const urlData = { originalUrl: "http://www.a24group.com", shortUrl: "abc123" };
+    const urlData = {
+      originalUrl: "http://www.a24group.com",
+      shortUrl: "abc123",
+    };
     const validUrl = new Url(urlData);
     const savedUrl = await validUrl.save();
 
@@ -78,7 +81,10 @@ describe("Url Model Test", () => {
 
   // Test that the createdAt field is set by default
   it("sets createdAt field by default", async () => {
-    const urlData = { originalUrl: "http://www.a24group.com", shortUrl: "fWdzcgy" };
+    const urlData = {
+      originalUrl: "http://www.a24group.com",
+      shortUrl: "fWdzcgy",
+    };
     const validUrl = new Url(urlData);
     const savedUrl = await validUrl.save();
 
