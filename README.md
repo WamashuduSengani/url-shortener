@@ -28,6 +28,7 @@ This is a basic URL shortening service implemented using Node.js, Express.js, an
 3. **Set up MongoDB:**
 
    - Install MongoDB if you haven't already.
+   - Create a directory named data in the project's root directory to store MongoDB data: Run this command `mkdir data`
    - Start an instance of MongoDB using the following command while inside the project directory:
 
     ```bash
