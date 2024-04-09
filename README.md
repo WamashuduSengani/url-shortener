@@ -45,7 +45,7 @@ This is a basic URL shortening service implemented using Node.js, Express.js, an
 
    ```
    MONGODB_URI=mongodb://127.0.0.1/url-shortener
-   PORT=6000
+   PORT=8080
    ```
 
 ## Running the Server
@@ -85,7 +85,7 @@ npm start
     - If you don't have Postman installed, you can download it here.
 
 2. Send a POST request to shorten a URL:
-    - Set the request URL to `http://localhost:6000/api/url/shorten`.
+    - Set the request URL to `http://localhost:8080/api/url/shorten`.
     - Set the request method to POST.
     - In the request body, add a JSON object with the key originalUrl and the value as the long URL you want to shorten (e.g., 
     { 
@@ -104,7 +104,7 @@ npm start
 4. Redirect to the original URL:
 
     - Open a new tab in your browser.
-    - Paste the shortened URL (e.g., `http://localhost:6000/E9k1P4`) into the address bar and press Enter.
+    - Paste the shortened URL (e.g., `http://localhost:8080/E9k1P4`) into the address bar and press Enter.
       You'll be redirected to the original URL.
 
 ## Error Handling
