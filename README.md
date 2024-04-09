@@ -9,6 +9,8 @@ This is a basic URL shortening service implemented using Node.js, Express.js, an
 3. [API Endpoints](#api-endpoints)
 4. [Error Handling](#error-handling)
 5. [Unit Tests](#unit-tests)
+6. [Technologies Used](#technologies-used)
+
 
 ## Setup
 
@@ -105,7 +107,7 @@ npm start
     - Paste the shortened URL (e.g., `http://localhost:6000/E9k1P4`) into the address bar and press Enter.
       You'll be redirected to the original URL.
 
-## Error Handling**
+## Error Handling
 
 - Invalid URLs: Returns a 400 error with a message.
 - Server Errors: Returns a 500 error with a message.
@@ -118,5 +120,10 @@ Unit tests can be found in the test directory. You can run the tests using:
 npm test
 ```
 
+## Technologies Used
 
-
+- Node.js
+- Express
+- MongoDB
+- JavaScript
+- Jest (for testing)
