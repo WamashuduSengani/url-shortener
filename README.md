@@ -82,7 +82,8 @@ npm start
 **How to Use in Postman**
 
 1. Open Postman: 
-    - If you don't have Postman installed, you can download it here.
+    - If you don't have Postman installed, you can download it access it here on the web `https://www.postman.com/downloads/`
+    and click on Launch Postman.
 
 2. Send a POST request to shorten a URL:
     - Set the request URL to `http://localhost:8080/api/url/shorten`.
